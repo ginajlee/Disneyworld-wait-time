@@ -364,7 +364,7 @@ attractionmonthly <- merge(attractionmonthly, splashmonthly, by = "date", all = 
 attractionmonthly <- merge(attractionmonthly, toystorymonthly, by = "date", all = TRUE)
 attractionmonthly <- attractionmonthly[-c(83),]
 
-# hour analysis
+# hourly analysis
 attractionhourly1 <- attractionhourly
 
 date1d = function (timeindex){
