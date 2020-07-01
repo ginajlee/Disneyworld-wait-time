@@ -187,7 +187,7 @@ spaceshipdaily <- spaceshiphourly
 splashdaily <- splashhourly
 toystorydaily <- toystoryhourly
 
-# calculate daily avg waiting time
+# calculate daily average waiting time
 date1b = function (timeindex){
   return(strftime(timeindex,format = "%Y-%m-%d"))
 }
