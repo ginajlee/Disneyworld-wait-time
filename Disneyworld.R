@@ -75,7 +75,7 @@ spaceship1$datetime = round(as.POSIXct(spaceship1$datetime, format="%H:%M:%S"), 
 splash1$datetime = round(as.POSIXct(splash1$datetime, format="%H:%M:%S"), units="hours")
 toystory1$datetime = round(as.POSIXct(toystory1$datetime, format="%H:%M:%S"), units="hours")
 
-# remove -999 values (attraction closed)
+# remove values when attration closed
 dwarf1 <- subset.data.frame(dwarf1,dwarf1$SPOSTMIN!=-999)
 alien1 <- subset.data.frame(alien1,alien1$SPOSTMIN!=-999)
 dinosaur1 <- subset.data.frame(dinosaur1,dinosaur1$SPOSTMIN!=-999)
